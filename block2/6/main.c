@@ -1,26 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
     printf("Task 1: \n");
-    int task1[6] = {34, 45, 56, 67, 78, 89};
-    for (int i = 0; i < 6; i++) {
-        printf("%d\n", task1[i]);
+    float mas[4];
+    float *MAS = &mas[0];
+    mas[0] = -3.4;
+    mas[1] = 4.5;
+    mas[2] = -5.6;
+    mas[3] = 6.7;
+    for (int i = 0; i < 4; i++) {
+        printf("%f\n", *(mas + i));
     }
 
     printf("\nTask 2: \n");
-    int mas1[2][2] = {{1, 0},
-                      {1, 4}};
-    int mas2[2][2] = {{1, 2},
-                      {0, 1}};
-    int masR[2][2] = {{mas1[0][0] * mas2[0][0] + mas1[0][1] * mas2[1][0],
-                              mas1[0][0] * mas2[0][1] + mas1[0][1] * mas2[1][1]},
-                      {mas1[1][0] * mas2[0][0] + mas1[1][1] * mas2[1][0],
-                              mas1[1][0] * mas2[0][1] + mas1[1][1] * mas2[1][1]}};
-    for (int i = 0; i < 2; i++) {
-        for (int j = 0; j < 2; j++) {
-            printf("%d", masR[i][j]);
-            printf(" ");
-        }
-        printf("\n");
+    float *arr = (float *) malloc(4 * sizeof(float));
+    arr[0] = -3.4;
+    arr[1] = 4.5;
+    arr[2] = -5.6;
+    arr[3] = 6.7;
+    for (int i = 0; i < 4; i++) {
+        printf("%f\n", *(arr + i));
     }
 }
