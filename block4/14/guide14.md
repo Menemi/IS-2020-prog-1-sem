@@ -12,11 +12,15 @@
 Если кратко, то вот так:
 ```cd /диск ..\корневаяПапкаПроекта\cmake-build-debug```
 
-В той папке у вас должно быть что-то такое [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/14/cmake-build-debug/guide-images/141.png) (не забудьте создать .bmp файл заранее, лул)
+В той папке у вас должно быть что-то такое (не забудьте создать .bmp файл заранее, лул)
+
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/14/cmake-build-debug/guide-images/141.png)
 
 Вы вписываете в консоль такую команду (изменяя название .exe и .bmp файлов на свои, а также указывая количество итераций, который должны пройти и раз во сколько итераций вы хотите получать картинку):
 ```14.exe --input picture.bmp --output output --max_iter 50 --dump_freq 2```
 
-И получаете свои картинки [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/14/cmake-build-debug/guide-images/142.png)
+И получаете свои картинки 
+
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/14/cmake-build-debug/guide-images/142.png)
 
 PS: Вы можете полистать эти картинки и убедиться, что они меняются
