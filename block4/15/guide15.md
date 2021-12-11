@@ -12,18 +12,24 @@
 Если кратко, то вот так:
 ```cd /диск ..\корневаяПапкаПроекта\cmake-build-debug```
 
-В той папке у вас должно быть что-то такое [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/151.png) (не забудьте создать заранее все файлы, которые вы хотите архивировать)
+В той папке у вас должно быть что-то такое (не забудьте создать заранее все файлы, которые вы хотите архивировать)
+
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/151.png) 
 
 Вы вписываете в консоль такую команду (изменяя название .exe файла и остальных тех файлов, которые собираетесь архивировать):
 ```15.exe --file data.arc 123.txt 222.bmp```
 
-И получаете свой файл архива (.arc) + вывод в консоль данного [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/152.png):
+И получаете свой файл архива (.arc) + вывод в консоль данного 
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/152.png):
+
 ```
 File 123.txt added
 File 222.bmp added
 ```
 
-Дальше вы можете продемонстрировать своему преподу, что вы действительно произведёте разархивацию тем, что удалите исходные файлы из папки [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/1522.png)
+Дальше вы можете продемонстрировать своему преподу, что вы действительно произведёте разархивацию тем, что удалите исходные файлы из папки 
+
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/1522.png)
 
 Вписываете команду для разархивации и получаете в консоль это:
 ```
@@ -32,7 +38,9 @@ File 222.bmp added
 DONE!
 ```
 
-После чего в своей папке заново увидите удалённые файлы [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/153.png)
+После чего в своей папке заново увидите удалённые файлы 
+
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/15/cmake-build-debug/guide-images/153.png)
 
 Также демонстрируйте работу команды по выводу списка файлов из архива и получайте такой вывод в консоль:
 ```
