@@ -12,7 +12,8 @@
 Если кратко, то вот так:
 ```cd /диск ..\корневаяПапкаПроекта\cmake-build-debug```
 
-В той папке у вас должно быть что-то такое [/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/13/cmake-build-debug/guide-images/13.png)
+В той папке у вас должно быть что-то такое
+![/скриншот/](https://github.com/1Menemi1/IS-2020-prog-1-sem/blob/main/block4/13/cmake-build-debug/guide-images/13.png)
 
 Вы вписываете в консоль такую команду (изменяя название .exe и .mp3 файлов на свои):
 ```13.exe --filepath=HDMI.mp3 --show```
